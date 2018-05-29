@@ -2,7 +2,7 @@
 
 <!-- Twitter -->
 <li>
-    <a href="//twitter.com/share?url=https:{{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Author.twitter }}"
+    <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Author.twitter }}"
        target="_blank" alt="" title="Share on Twitter">
         <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -13,7 +13,7 @@
 
 <!-- Google Plus -->
 <li>
-    <a href="//plus.google.com/share?url=https:{{ .Permalink }}" target="_blank" title="Share on Google Plus">
+    <a href="//plus.google.com/share?url={{ .Permalink }}" target="_blank" title="Share on Google Plus">
          <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -23,7 +23,7 @@
 
 <!-- Facebook -->
 <li>
-    <a href="//www.facebook.com/sharer/sharer.php?u=https://{{ .Permalink }}" target="_blank" title="Share on Facebook">
+    <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" title="Share on Facebook">
         <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -32,7 +32,7 @@
 </li>
 <!-- LinkedIn -->
 <li>
-    <a href="//www.linkedin.com/shareArticle?url=https://{{ .Permalink }}&amp;title={{ .Title }}" target="_blank"
+    <a href="//www.linkedin.com/shareArticle?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank"
        title="Share on LinkedIn">
          <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
